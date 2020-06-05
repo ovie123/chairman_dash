@@ -1,3 +1,14 @@
-.Ass-card {
-  height: 90px;
+@media only screen and (max-width: 768px) {
+  .wig {
+    height: auto;
+  }
+  .wig-wrap {
+    height: 250px;
+  }
+  .wig-inner {
+    height: 100%;
+  }
+  .can {
+    height: 100% !important;
+  }
 }
