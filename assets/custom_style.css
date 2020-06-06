@@ -1,14 +1,30 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 608px) {
   .wig {
     height: auto;
   }
   .wig-wrap {
     height: 250px;
+    width: 100%;
   }
   .wig-inner {
     height: 100%;
+    width: 100%;
   }
   .can {
     height: 100% !important;
+    width: 100%;
   }
+
+  .app-main__inner {
+    width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .app-main__outer {
+    width: 100% !important;
+  }
+}
+.app-main__inner {
+  padding-left: 30px;
+  padding-right: 30px;
 }
