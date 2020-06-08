@@ -20675,7 +20675,9 @@ a.fc-more:hover {
     display: inline-block;
   }
   .app-footer .app-footer__inner .app-footer-right {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
   .app-footer .app-footer__inner .app-footer-left {
     width: 100%;
