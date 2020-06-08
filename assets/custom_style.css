@@ -64,11 +64,18 @@
   padding-top: 60px;
   transition: all 0.2s;
 }
+.dash-text h5 {
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+}
 
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 600px) {
   .kgirs {
     display: none;
+  }
+  .dash-text h5 {
+    font-size: 25px;
   }
 }
 
@@ -80,7 +87,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .kgirs {
     display: none;
   }
@@ -91,11 +98,14 @@
   .kgirs {
     display: none !important;
   }
-}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .kgirs {
-    display: none;
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media screen and (max-width: 1270px) {
+    .kgirs {
+      display: none;
+    }
+    .collection-card {
+      width: 100% !important;
+    }
   }
 }
