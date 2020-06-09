@@ -65,17 +65,27 @@
   transition: all 0.2s;
 }
 .dash-text h5 {
-  font-size: 40px;
+  font-size: 20px;
   font-family: 'Pacifico', cursive;
+}
+.dash-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-kgirs {
 }
 
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 600px) {
-  .kgirs {
+  /* .kgirs {
     display: none;
-  }
+  } */
   .dash-text h5 {
     font-size: 25px;
+    margin-right: 20px;
+  }
+  .dash-text {
   }
 }
 
