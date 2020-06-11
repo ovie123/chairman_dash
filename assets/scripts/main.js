@@ -8850,12 +8850,10 @@
               function w() {
                 clearTimeout(s),
                   (_.hideEta = 0),
-                  u
-                    .stop(!0, !0)
-                    [a.showMethod]({
-                      duration: a.showDuration,
-                      easing: a.showEasing,
-                    });
+                  u.stop(!0, !0)[a.showMethod]({
+                    duration: a.showDuration,
+                    easing: a.showEasing,
+                  });
               }
               function L() {
                 var e =
@@ -44505,18 +44503,22 @@
         data: {
           datasets: [
             {
-              data: [a(), a(), a(), a(), a()],
+              data: [a(), a(), a(), a()],
               backgroundColor: [
                 window.chartColors.red,
                 window.chartColors.orange,
                 window.chartColors.yellow,
                 window.chartColors.green,
-                window.chartColors.blue,
               ],
-              label: 'Dataset 1',
+              label: 'DA Budget Performance',
             },
           ],
-          labels: ['Red', 'Orange', 'Yellow', 'Green', 'Blue'],
+          labels: [
+            'Budget Estimate',
+            'DA Collection',
+            'Performance Gap',
+            'Budget Performance',
+          ],
         },
         options: { responsive: !0 },
       },
@@ -44553,17 +44555,16 @@
           type: 'radar',
           data: {
             labels: [
-              ['Eating', 'Dinner'],
-              ['Drinking', 'Water'],
-              'Sleeping',
-              ['Designing', 'Graphics'],
-              'Coding',
-              'Cycling',
-              'Running',
+              'Adavi',
+              'Okene',
+              'Lokoja',
+              'Ajaokuta',
+              'kaba',
+              
             ],
             datasets: [
               {
-                label: 'My First dataset',
+                label: 'Previous Month',
                 backgroundColor: o(window.chartColors.red)
                   .alpha(0.2)
                   .rgbString(),
@@ -44572,7 +44573,7 @@
                 data: [a(), a(), a(), a(), a(), a(), a()],
               },
               {
-                label: 'My Second dataset',
+                label: 'Current',
                 backgroundColor: o(window.chartColors.blue)
                   .alpha(0.2)
                   .rgbString(),
@@ -44604,7 +44605,12 @@
               label: 'Dataset 1',
             },
           ],
-          labels: ['Red', 'Orange', 'Yellow', 'Green', 'Blue'],
+          labels: [
+            'Budget Estimate',
+            'DA Collection',
+            'Performance Gap',
+            'Budget Performance',
+          ],
         },
         options: {
           responsive: !0,
@@ -44629,7 +44635,7 @@
               label: 'Dataset 1',
             },
           ],
-          labels: ['Red', 'Orange', 'Yellow', 'Green', 'Blue'],
+          labels: ['Lokoja', 'Head', 'Ayingba', 'Kontonkarfe', 'Okene'],
         },
         options: {
           responsive: !0,
@@ -44654,7 +44660,7 @@
               label: 'My dataset',
             },
           ],
-          labels: ['Red', 'Orange', 'Yellow', 'Green', 'Blue'],
+          labels: ['Lokoja', 'Head', 'Ayingba', 'Kontonkarfe', 'Okene'],
         },
         options: {
           responsive: !0,

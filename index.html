@@ -552,7 +552,8 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 col-xl-4">
+
+          <div class="col-md-6 col-xl-4">
             <div class="card Ass-card mb-3 widget-content">
               <div class="widget-content-outer">
                 <div class="widget-content-wrapper">
@@ -602,6 +603,25 @@
 
 
         <div class="row">
+          <div class="col-md-6">
+            <div class="main-card mb-3 card">
+              <div class="card-body">
+                <h5 class="card-title">DA Budget Performance</h5>
+                <canvas id="chart-area"></canvas>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="main-card mb-3 card">
+              <div class="card-body">
+                <h5 class="card-title">Da Collection (Top Tax Offices)</h5>
+                <canvas id="polar-chart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
           <div class="col-md-4 col-xl-4 collection-card">
             <div class="card month mb-3 widget-content bg-midnight-bloom">
               <div class="widget-content-wrapper text-white">
@@ -638,13 +658,31 @@
                   <div class="widget-subheading">Last 365 days</div>
                 </div>
                 <div class="widget-content-right">
-                  <div class="widget-numbers text-white" style="font-size: 20px;"><span>4600009801</span></div>
+                  <div class="widget-numbers text-white" style="font-size: 20px;"><span>&#8358;4600009801</span></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
+        <div class="row">
+          <div class="col-md-6">
+            <div class="main-card mb-3 card">
+              <div class="card-body">
+                <h5 class="card-title">Top Collecting Stations</h5>
+                <canvas id="radar-chart"></canvas>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="main-card mb-3 card">
+              <div class="card-body">
+                <h5 class="card-title"> Paye Budget Performance</h5>
+                <canvas id="doughnut-chart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="divider mt-0" style="margin-bottom: 30px;"></div>
         <div class="row">
@@ -865,7 +903,9 @@
       <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
     </div>
   </div>
+  <script type="text/javascript" src="./assets/scripts/custom.js"></script>
   <script type="text/javascript" src="./assets/scripts/main.js"></script>
+
 </body>
 
 </html>
